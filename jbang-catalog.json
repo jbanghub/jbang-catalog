@@ -1,0 +1,13 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "sqlline": {
+      "script-ref": "sqlline:sqlline:1.12.0"
+    },
+    "h2": {
+      "script-ref": "com.h2database:h2:2.2.224",
+      "java-agents": []
+    }
+  },
+  "templates": {}
+}
