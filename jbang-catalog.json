@@ -7,6 +7,10 @@
     "h2": {
       "script-ref": "com.h2database:h2:2.2.224",
       "java-agents": []
+    },
+    "mima": {
+      "script-ref": "eu.maveniverse.maven.mima:cli:2.4.4",
+      "java-agents": []
     }
   },
   "templates": {}
