@@ -13,5 +13,16 @@
       "java-agents": []
     }
   },
-  "templates": {}
+  "templates": {
+    "jbanghub": {
+      "file-refs": {
+        "{basename}/jbang-catalog.json": "template/jbang-catalog.json",
+        "{basename}/.github/workflows/build.yml": "template/.github/workflows/build.yml",
+        "{basename}/.github/renovate.json": "template/.github/renovate.json",
+        "{basename}/.github/test.sh": "template/.github/test.sh",
+        "{basename}/readme.adoc": "template/readme.adoc.qute"
+      },
+      "description": "Template for creating a new JBang catalog hosted in JBangHub"
+    }
+  }
 }
