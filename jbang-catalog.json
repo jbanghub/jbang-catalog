@@ -1,5 +1,10 @@
 {
-  "catalogs": {},
+  "catalogs": {
+    "maxandersen": {
+      "catalog-ref": "https://github.com/jbangdev/jbang-catalog/blob/HEAD/jbang-catalog.json",
+      "import": true
+    }
+  },
   "aliases": {
     "sqlline": {
       "script-ref": "sqlline:sqlline:1.12.0"
