@@ -1,23 +1,13 @@
 {
   "catalogs": {
-    "maxandersen": {
-      "catalog-ref": "https://github.com/jbangdev/jbang-catalog/blob/HEAD/jbang-catalog.json",
-      "import": true
+    "apple": {
+      "catalog-ref": "https://github.com/jbanghub/apple/blob/HEAD/jbang-catalog.json"
+    },
+    "eclipse": {
+      "catalog-ref": "https://github.com/jbanghub/eclipse/blob/HEAD/jbang-catalog.json"
     }
   },
-  "aliases": {
-    "sqlline": {
-      "script-ref": "sqlline:sqlline:1.12.0"
-    },
-    "h2": {
-      "script-ref": "com.h2database:h2:2.2.224",
-      "java-agents": []
-    },
-    "mima": {
-      "script-ref": "eu.maveniverse.maven.mima:cli:2.4.4",
-      "java-agents": []
-    }
-  },
+  
   "templates": {
     "jbanghub": {
       "file-refs": {
