@@ -5,9 +5,15 @@
     },
     "eclipse": {
       "catalog-ref": "https://github.com/jbanghub/eclipse/blob/HEAD/jbang-catalog.json"
+    },
+    "jvm-profiling-tools": {
+      "catalog-ref": "https://github.com/jvm-profiling-tools/ap-loader/blob/HEAD/jbang-catalog.json"
+    },
+    "sqlline": {
+      "catalog-ref": "https://github.com/jbanghub/sqlline/blob/HEAD/jbang-catalog.json"
     }
   },
-  
+  "aliases": {},
   "templates": {
     "jbanghub": {
       "file-refs": {
