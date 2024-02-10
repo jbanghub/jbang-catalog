@@ -35,6 +35,9 @@
     },
     "apache/camel": {
       "catalog-ref": "https://github.com/apache/camel/blob/HEAD/jbang-catalog.json"
+    },
+    "jreleaser": {
+      "catalog-ref": "https://github.com/jreleaser/jbang-catalog/blob/HEAD/jbang-catalog.json"
     }
   },
   "aliases": {},
