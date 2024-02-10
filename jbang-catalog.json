@@ -38,6 +38,12 @@
     },
     "jreleaser": {
       "catalog-ref": "https://github.com/jreleaser/jbang-catalog/blob/HEAD/jbang-catalog.json"
+    },
+    "jupyter-java": {
+      "catalog-ref": "https://github.com/jupyter-java/jbang-catalog/blob/HEAD/jbang-catalog.json"
+    },
+    "karatelabs": {
+      "catalog-ref": "https://github.com/karatelabs/jbang-catalog/blob/HEAD/jbang-catalog.json"
     }
   },
   "aliases": {},
@@ -47,7 +53,6 @@
         "{basename}/jbang-catalog.json": "template/jbang-catalog.json",
         "{basename}/.github/workflows/build.yml": "template/.github/workflows/build.yml",
         "{basename}/.github/renovate.json": "template/.github/renovate.json",
-        "{basename}/.github/test.sh": "template/.github/test.sh",
         "{basename}/readme.adoc": "template/readme.adoc.qute"
       },
       "description": "Template for creating a new JBang catalog hosted in JBangHub"

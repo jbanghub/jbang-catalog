@@ -8,18 +8,5 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Check out code
-      uses: actions/checkout@v4
-
-    - name: Setup JBang
-      uses: jbangdev/setup-jbang@main
-
-    - name: Install jq
-      run: sudo apt-get install jq
-
-    - name: Run JBang Builds
-      run: sh .github/test.sh
-
+    uses: jbanghub/.github/.github/workflows/shared-build.yml@main
+    secrets: inherit
