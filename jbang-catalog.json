@@ -1,18 +1,18 @@
 {
   "catalogs": {
-    "apple": {
+    "jbanghub/apple": {
       "catalog-ref": "https://github.com/jbanghub/apple/blob/HEAD/jbang-catalog.json",
       "description": "Apple cli\u0027s"
     },
-    "eclipse": {
+    "jbanghub/eclipse": {
       "catalog-ref": "https://github.com/jbanghub/eclipse/blob/HEAD/jbang-catalog.json",
       "description": "Eclipse Foundation developed tools"
     },
-    "jvm-profiling-tools": {
+    "jbanghub/jvm-profiling-tools": {
       "catalog-ref": "https://github.com/jvm-profiling-tools/ap-loader/blob/HEAD/jbang-catalog.json",
       "description": "A collection of JVM profiling tools"
     },
-    "sqlline": {
+    "jbanghub/sqlline": {
       "catalog-ref": "https://github.com/jbanghub/sqlline/blob/HEAD/jbang-catalog.json",
       "description": "Shell for issuing SQL to relational databases via JDBC"
     },
