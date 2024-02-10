@@ -22,6 +22,19 @@
     },
     "maveniverse": {
       "catalog-ref": "https://github.com/maveniverse/jbang-catalog/blob/HEAD/jbang-catalog.json"
+    },
+    "jbanghub/h2": {
+      "catalog-ref": "https://github.com/jbanghub/h2/blob/HEAD/jbang-catalog.json",
+      "description": "H2 Database Engine"
+    },
+    "microsoft": {
+      "catalog-ref": "https://github.com/microsoft/jbang-catalog/blob/HEAD/jbang-catalog.json"
+    },
+    "alibaba": {
+      "catalog-ref": "https://github.com/alibaba/jbang-catalog/blob/HEAD/jbang-catalog.json"
+    },
+    "apache/camel": {
+      "catalog-ref": "https://github.com/apache/camel/blob/HEAD/jbang-catalog.json"
     }
   },
   "aliases": {},
