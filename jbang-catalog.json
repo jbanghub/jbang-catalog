@@ -54,6 +54,10 @@
     "jbangdev": {
       "description": "JBang's own catalog of small utilities",
       "catalog-ref": "https://github.com/jbangdev/jbang/blob/HEAD/jbang-catalog.json"
+    },
+    "oracle/graalpython": {
+      "description": "A Python 3 implementation built on GraalVM",
+      "catalog-ref": "https://github.com/oracle/graalpython/blob/HEAD/jbang-catalog.json"
     }
   },
   "aliases": {},
