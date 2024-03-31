@@ -21,6 +21,7 @@
       "description": "Subsonic and Subatomic Quarkus cli and plugins"
     },
     "maveniverse": {
+      "description": "The missing pieces from Apache Maven universe",
       "catalog-ref": "https://github.com/maveniverse/jbang-catalog/blob/HEAD/jbang-catalog.json"
     },
     "jbanghub/h2": {
@@ -28,34 +29,43 @@
       "description": "H2 Database Engine"
     },
     "microsoft": {
+      "description": "Catalogue for JBang Artifacts",
       "catalog-ref": "https://github.com/microsoft/jbang-catalog/blob/HEAD/jbang-catalog.json"
     },
     "alibaba": {
       "catalog-ref": "https://github.com/alibaba/jbang-catalog/blob/HEAD/jbang-catalog.json"
     },
     "apache/camel": {
+      "description": "Run Apache Camel routes easily",
       "catalog-ref": "https://github.com/apache/camel/blob/HEAD/jbang-catalog.json"
     },
     "jreleaser": {
+      "description": "Release projects quickly and easily with JReleaser",
       "catalog-ref": "https://github.com/jreleaser/jbang-catalog/blob/HEAD/jbang-catalog.json"
     },
     "jupyter-java": {
+      "description": "Make it easy to use java from jupyter notebooks",
       "catalog-ref": "https://github.com/jupyter-java/jbang-catalog/blob/HEAD/jbang-catalog.json"
     },
-    "karatelabs": {
-      "catalog-ref": "https://github.com/karatelabs/jbang-catalog/blob/HEAD/jbang-catalog.json"
+    "jvm-profiling-tools/ap-loader": {
+      "description": "Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events via JBang",
+      "catalog-ref": "https://github.com/jvm-profiling-tools/ap-loader/blob/HEAD/jbang-catalog.json"
+    },
+    "jbangdev": {
+      "description": "JBang's own catalog of small utilities",
+      "catalog-ref": "https://github.com/jbangdev/jbang/blob/HEAD/jbang-catalog.json"
     }
   },
   "aliases": {},
   "templates": {
-    "jbanghub": {
+    "jbang-catalog": {
       "file-refs": {
         "{basename}/jbang-catalog.json": "template/jbang-catalog.json",
         "{basename}/.github/workflows/build.yml": "template/.github/workflows/build.yml",
         "{basename}/.github/renovate.json": "template/.github/renovate.json",
         "{basename}/readme.adoc": "template/readme.adoc.qute"
       },
-      "description": "Template for creating a new JBang catalog hosted in JBangHub"
+      "description": "Template for creating a new JBang catalog hosted on github with automatic renovate updates"
     }
   }
 }
