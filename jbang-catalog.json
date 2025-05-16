@@ -58,6 +58,10 @@
     "oracle/graalpython": {
       "description": "A Python 3 implementation built on GraalVM",
       "catalog-ref": "https://github.com/oracle/graalpython/blob/HEAD/jbang-catalog.json"
+    },
+    "jabref": {
+      "description": "JabRef's tools for managing academic literature",
+      "catalog-ref": "https://github.com/JabRef/jbang-catalog/blob/HEAD/jbang-catalog.json"
     }
   },
   "aliases": {},
