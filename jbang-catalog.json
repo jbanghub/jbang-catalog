@@ -58,6 +58,10 @@
     "oracle/graalpython": {
       "description": "A Python 3 implementation built on GraalVM",
       "catalog-ref": "https://github.com/oracle/graalpython/blob/HEAD/jbang-catalog.json"
+    },
+    "enola": {
+      "description": "Run Enola.dev AI agents",
+      "catalog-ref": "https://github.com/enola-dev/jbang-catalog/blob/HEAD/jbang-catalog.json"
     }
   },
   "aliases": {},
